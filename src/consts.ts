@@ -104,12 +104,12 @@ export const stack = [
 
 export const projects = [
   {
-    name: "ComeTEC",
+    name: "My Portafolio",
     description:
-    'A light, user-friendly web application designed to host <b style="color: #C70039;">nationwide</b> inter-school math competitions. Provides an intuitive platform for students and schools to participate in and manage <b style="color: #C70039;">mathematical</b> challenges, fostering academic excellence. The app is built to handle <b style="color: #C70039;">real-time scoring</b>, ranking and result publishing, aimed at promoting educational growth.',
-    image: cometecLogo,
-    url: "https://github.com/TAYD3Y400/ComeTEC",
-  }, 
+    'A personal <b style="color: #C70039;">portfolio</b> showcasing my journey as a developer, featuring an <b style="color: #C70039;">About Me</b> section, detailed <b style="color: #C70039;">experience</b>, selected <b style="color: #C70039;">projects</b>, tech <b style="color: #C70039;">stack</b>, and <b style="color: #C70039;">educational background</b>. Designed to highlight my skills, growth, and professional achievements.',
+    image: portafolioLogo,
+    url: "https://github.com/TAYD3Y400/MyPortafolio",
+  },
   {
     name: "CREV Website",
     description:
@@ -125,10 +125,10 @@ export const projects = [
     url: "https://github.com/TAYD3Y400/ApolosLibrary-NetCore",
   },
   {
-    name: "My Portafolio",
+    name: "ComeTEC",
     description:
-    'A personal <b style="color: #C70039;">portfolio</b> showcasing my journey as a developer, featuring an <b style="color: #C70039;">About Me</b> section, detailed <b style="color: #C70039;">experience</b>, selected <b style="color: #C70039;">projects</b>, tech <b style="color: #C70039;">stack</b>, and <b style="color: #C70039;">educational background</b>. Designed to highlight my skills, growth, and professional achievements.',
-    image: portafolioLogo,
-    url: "https://github.com/TAYD3Y400/MyPortafolio",
-  },
+    'A light, user-friendly web application designed to host <b style="color: #C70039;">nationwide</b> inter-school math competitions. Provides an intuitive platform for students and schools to participate in and manage <b style="color: #C70039;">mathematical</b> challenges, fostering academic excellence. The app is built to handle <b style="color: #C70039;">real-time scoring</b>, ranking and result publishing, aimed at promoting educational growth.',
+    image: cometecLogo,
+    url: "https://github.com/TAYD3Y400/ComeTEC",
+  }
 ];
