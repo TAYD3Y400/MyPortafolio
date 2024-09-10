@@ -11,14 +11,6 @@ export async function GET(context) {
     site: context.site,
     categories: [],
     items: [
-      ...scripts.map((script) => ({
-        ...script.data,
-        link: `/linux/${script.slug}/`,
-      })),
-      ...posts.map((post) => ({
-        ...post.data,
-        link: `/blog/${post.slug}/`,
-      })),
     ],
   });
 }
