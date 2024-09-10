@@ -108,7 +108,7 @@ export const projects = [
     description:
     'A light, user-friendly web application designed to host <b style="color: #C70039;">nationwide</b> inter-school math competitions. Provides an intuitive platform for students and schools to participate in and manage <b style="color: #C70039;">mathematical</b> challenges, fostering academic excellence. The app is built to handle <b style="color: #C70039;">real-time scoring</b>, ranking and result publishing, aimed at promoting educational growth.',
     image: cometecLogo,
-    url: "https://github.com/honojs/middleware/tree/main/packages/oauth-providers",
+    url: "https://github.com/TAYD3Y400/ComeTEC",
   }, 
   {
     name: "CREV Website",
@@ -122,13 +122,13 @@ export const projects = [
     description:
     'A sleek and easy-to-use <b style="color: #C70039;">eCommerce</b> platform designed for buying and selling books online. Users can easily <b style="color: #C70039;">register</b> for accounts, browse a wide collection of books, and securely <b style="color: #C70039;">purchase</b> their favorites.',
     image: apolosLogo,
-    url: "https://paleta-v3.vercel.app/",
+    url: "https://github.com/TAYD3Y400/ApolosLibrary-NetCore",
   },
   {
     name: "My Portafolio",
     description:
     'A personal <b style="color: #C70039;">portfolio</b> showcasing my journey as a developer, featuring an <b style="color: #C70039;">About Me</b> section, detailed <b style="color: #C70039;">experience</b>, selected <b style="color: #C70039;">projects</b>, tech <b style="color: #C70039;">stack</b>, and <b style="color: #C70039;">educational background</b>. Designed to highlight my skills, growth, and professional achievements.',
     image: portafolioLogo,
-    url: "/colors-kit-docs",
+    url: "https://github.com/TAYD3Y400/MyPortafolio",
   },
 ];

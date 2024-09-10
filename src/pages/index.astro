@@ -95,6 +95,13 @@ import avatar from '../images/cat.webp'
 				background: rgba(255, 255, 255, 0.05);
 				font-size: 1.1rem;
 			}
+			.education_learnings p {
+				padding: 2em;
+				border: 1px solid rgba(255,255,255, 0.2);
+				border-radius: 1em;
+				background: rgba(255, 255, 255, 0.05);
+				font-size: 1.0rem;
+			}
 			.stacks, .experiences, .projects {
 				width: 100%;
 				margin-bottom: 5em;
@@ -193,7 +200,7 @@ import avatar from '../images/cat.webp'
 			.experience__tasks {
 				padding-block-start: 1em;
 				padding-inline-start: 2em;
-				font-size: 1.1rem;
+				font-size: 1.02rem;
 			}
 			.experience__stack {
 				margin-top: 1.4em;
@@ -402,9 +409,13 @@ import avatar from '../images/cat.webp'
 						Always learning about new paradigms and technologies to apply right solution in the right place.
 					</p>
 					<br>
-					<figure class="avatar">
-						<Image src={avatar}	alt="Avatar of Cat" height={250} />
-					</figure>
+					<a target="_blank" href="https://www.youtube.com/watch?v=bv3hXOCfdAw">
+						<figure class="avatar">
+						
+							<Image src={avatar}	alt="Avatar of Cat" height={250} />
+						</figure>
+					</a>
+					
 				</article>
 			</section>
 
@@ -458,11 +469,10 @@ import avatar from '../images/cat.webp'
 					<p class='experience__date'><time datetime='2024-02-20'>February 2024</time> - <time datetime='2024-07-01'>July 2024</time></p>
 					<ul class='experience__tasks'>
 						<li><p><b>Automation</b> of processes using technologies like <b>Spring Shell, SSH, SCP</b>, and <b>Docker</b>.</p></li>
-						<li><p>Development of scripts for <b>server configuration</b> and deployment using <b>Nexus CLI</b> and <b>SecureLink CLI</b>.</p></li>
+						<li><p>Development of <b>scripts</b> for <b>server configuration</b> and deployment using <b>Nexus CLI</b> and <b>SecureLink CLI</b>.</p></li>
 						<li><p>Implementation of automated tests with <b>JUnit</b> to ensure software quality.</p></li>
 						<li><p>Collaboration in the <b>automation</b> and <b>maintenance</b> of network systems using the company's internal tools.</p></li>
 						<li><p>Worked in a <b>Scrum team</b>, participating in sprints for task planning and execution.</p></li>
-						<li><p>Documented scripts and processes to ensure their <b>reusability</b> and understanding by the team.</p></li>
 						<li><p><b>Optimization</b> of network infrastructure through improvements in the configuration of <b>gateways</b> and <b>gatekeepers</b>.</p></li>
 						<li><p>Provided support to the <b>Back-End</b> team for the integration of new features and server improvements.</p></li>
 					</ul>
@@ -482,8 +492,6 @@ import avatar from '../images/cat.webp'
 						<li><p><b>Developed</b> and maintained <b>web applications</b> for data processing using <b>JavaScript</b>, <b>Node.js</b>, and <b>React</b>.</p></li>
 						<li><p><b>Automated</b> data transfer processes between systems to streamline business workflows and enhance efficiency.</p></li>
 						<li><p>Created <b>custom APIs</b> for data migration and integration using <b>Node.js</b>.</p></li>
-						<li><p><b>Collaborated</b> with teams to gather requirements and ensure seamless data flow between platforms.</p></li>
-						<li><p><b>Tested</b> and deployed automation scripts to reduce manual work and improve process reliability.</p></li>
 						<li><p>Ensured <b>data integrity</b> and security during transfers, maintaining <b>accuracy</b> and consistency.</p></li>
 					</ul>
 				</article>
@@ -578,8 +586,9 @@ import avatar from '../images/cat.webp'
 						</div>
 	
 						<p class='experience__date'><time datetime='2020-02-07'>February 2020</time> - <time datetime='2024-09-05'>September 2024</time></p>
-						<ul class='experience__tasks'>
-							<li><p>Graduated with <b>Honors</b></p></li>
+						<ul class='education_learnings'>
+							<p>Graduated with <b>Honors</b>. During my <b>Bachelor's in Computer Science</b>, I gained a deep understanding of <b>software architecture</b> and <b>design patterns</b>, which allowed me to build scalable and maintainable systems. I also acquired experience in managing and optimizing both <b>SQL</b> and <b>NoSQL databases</b>, and explored <b>cloud computing</b> and <b>virtualization technologies</b> using tools like <b>Docker</b> and <b>Kubernetes</b>. My studies included developing advanced <b>algorithms</b> and <b>data structures</b> to efficiently solve complex problems. Additionally, I had the opportunity to explore emerging fields such as <b>artificial intelligence</b> and <b>machine learning</b> through hands-on projects and research.
+							</p>
 						</ul>
 
 					</article>
@@ -594,8 +603,8 @@ import avatar from '../images/cat.webp'
 						</div>
 	
 						<p class='experience__date'><time datetime='2017-02-05'>February 2017</time> - <time datetime='2019-12-15'>December 2019</time></p>
-						<ul class='experience__tasks'>
-							<li><p>Graduated with <b>Honors</b></p></li>
+						<ul class='education_learnings'>
+							<p>Throughout my <b>Associate's Degree in Software Development</b>, I developed a strong foundation in <b>object-oriented programming</b> using languages like <b>Java</b> and <b>C#</b>. I gained practical experience in <b>web development</b> through the use of <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, and worked on building responsive, dynamic websites. I also learned to manage <b>relational databases</b> using <b>SQL</b> and focused on improving <b>data structures</b> and <b>algorithms</b> for optimized performance. Additionally, I gained experience in <b>version control systems</b> like <b>Git</b>. This degree equipped me with the skills to design, develop, and maintain software applications efficiently.</p>
 						</ul>
 					</article>
 				</div>
