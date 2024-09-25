@@ -104,7 +104,7 @@ export const stack = [
 
 export const projects = [
   {
-    name: "My Portafolio",
+    name: "My Portfolio",
     description:
     'A personal <b style="color: #C70039;">portfolio</b> showcasing my journey as a developer, featuring an <b style="color: #C70039;">About Me</b> section, detailed <b style="color: #C70039;">experience</b>, selected <b style="color: #C70039;">projects</b>, tech <b style="color: #C70039;">stack</b>, and <b style="color: #C70039;">educational background</b>. Designed to highlight my skills, growth, and professional achievements.',
     image: portafolioLogo,
