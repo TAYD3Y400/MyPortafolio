@@ -1,6 +1,6 @@
 import portafolioLogo from "./icons/thc-red.svg";
 import cometecLogo from "./icons/cometec.svg";
-import apolosLogo from "./icons/apolos.svg";
+import nbaLogo from "./icons/nba2.svg";
 import crevlogo from "./icons/crev.svg";
 
 export const SITE_TITLE = "THC";
@@ -103,6 +103,14 @@ export const stack = [
 
 
 export const projects = [
+  
+  {
+    name: "NBA MVP Predict",
+    description: 'A <b style="color: #C70039;">data-driven analytics platform</b> coded in  <b style="color: #C70039;">Python</b> that forecasts NBA Most Valuable Player winners using historical trends and machine learning. Designed to provide <b style="color: #C70039;">real-time insights</b> into player performance, team success, and voting patterns, helping fans and analysts identify top contenders with precision.',
+    image: nbaLogo,
+    url: "https://colab.research.google.com/drive/1R3ARswTOCmG04EwFxztPUqhYHotzJLvJ?usp=sharing",
+  },
+  
   {
     name: "My Portfolio",
     description:
@@ -116,13 +124,6 @@ export const projects = [
     'A clean and intuitive <b style="color: #C70039;">catalog</b> and information website for <b style="color: #C70039;">CREV</b>, providing users with detailed information on products, services, and company updates. Designed for easy navigation and a smooth user experience, allowing visitors to quickly find what they need.',
     image: crevlogo,
     url: "https://crevlatam.com/?page_id=1171",
-  },
-  {
-    name: "Apolos Library Website",
-    description:
-    'A sleek and easy-to-use <b style="color: #C70039;">eCommerce</b> platform designed for buying and selling books online. Users can easily <b style="color: #C70039;">register</b> for accounts, browse a wide collection of books, and securely <b style="color: #C70039;">purchase</b> their favorites.',
-    image: apolosLogo,
-    url: "https://github.com/TAYD3Y400/ApolosLibrary-NetCore",
   },
   {
     name: "ComeTEC",

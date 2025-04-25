@@ -109,6 +109,15 @@ import avatar from '../images/cat.webp'
 				background: rgba(255, 255, 255, 0.05);
 				font-size: 1.0rem;
 			}
+			.education_container {
+				display: flex;
+				flex-direction: row;
+				gap: 2rem; /* Space between the two sections */
+			}
+
+			.education_title {
+				flex: 1; /* Ensures both sections take equal width */
+			}
 			.stacks, .experiences, .projects {
 				width: 100%;
 				margin-bottom: 5em;
@@ -291,7 +300,7 @@ import avatar from '../images/cat.webp'
 				height: 20em;
 				border-radius: 30%;
 				display: block;
-				background: radial-gradient(#14286e 20%, #198ba455 100%);
+				background: radial-gradient(#8996c4 20%, #198ba455 100%);
 				transform: translate(-50%, 0%);
 				will-change: transform;
 				filter: blur(100px);
@@ -342,7 +351,7 @@ import avatar from '../images/cat.webp'
 			}
 			.project__description {
 				font-size: 1.1rem;
-				color: white;
+				color: var(--secondary);
 				margin-bottom: 1em;
 			}
 			.project__image img {
@@ -437,7 +446,7 @@ import avatar from '../images/cat.webp'
 						</li>
 					</ul>
 					<p>
-						Hi there! I'm Taylor S. Hernández a software developer with almost <b>2 years</b> of experience building user-friendly applications. Throughout my journey, I've <b>collaborated</b> with my co-workers in their duties across diverse areas like backend, frotend, automation, and database management, <b>learning</b> a lot from them. I <b>constantly explore</b> new technologies and resources to build smooth and scalable apps.
+						Hi there! I'm Taylor S. Hernández a software developer with around <b>2 years</b> of experience building user-friendly applications. Throughout my journey, I've <b>collaborated</b> with my co-workers in their duties across diverse areas like backend, frotend, automation, and database management, <b>learning</b> a lot from them. I <b>constantly explore</b> new technologies and resources to build smooth and scalable apps.
 					</p>
 				</div>
 			</section>
@@ -496,7 +505,7 @@ import avatar from '../images/cat.webp'
 						<p class='experience__role'>UPS - Software Developer</p>
 					</div>
 
-					<p class='experience__date'><time datetime='2019-10-07'>October 2019</time> - <time datetime='2020-03-01'>March 2020</time></p>
+					<p class='experience__date'><time datetime='2019-10-07'>October 2019</time> - <time datetime='2020-11-01'>November 2020</time></p>
 					<ul class='experience__tasks'>
 						<li><p><b>Automated</b> business processes for customer service agents using <b>Java</b> and <b>C#</b>.</p></li>
 						<li><p>Developed tools to <b>optimize</b> data handling and transfer between <b>SQL Server</b> databases and internal systems.</p></li>
@@ -564,42 +573,52 @@ import avatar from '../images/cat.webp'
 
 
 			<section class="experiences">
-				<div class="experiences_title">
-					<h2 class='exp_subtitle'>Education</h2>
-					<br>
-					<article class='experience'>
-						<div class='experience__title'>
-							<h3>ITCR
-								<Image src={tecLogo} alt='ITCR Logo' height={50} />
-							</h3>
-							<span></span>
-							<p class='experience__role'>Instituto Tecnologico de Costa Rica - Bachelor's Degree in Computer Science</p>
-						</div>
-	
-						<p class='experience__date'><time datetime='2020-02-07'>February 2020</time> - <time datetime='2024-09-05'>September 2024</time></p>
-						<ul class='education_learnings'>
-							<p>Graduated with <b>Honors</b>. During my <b>Bachelor's in Computer Science</b>, I gained a deep understanding of <b>software architecture</b> and <b>design patterns</b>, which allowed me to build scalable and maintainable systems. I also acquired experience in managing and optimizing both <b>SQL</b> and <b>NoSQL databases</b>, and explored <b>cloud computing</b> and <b>virtualization technologies</b> using tools like <b>Docker</b> and <b>Kubernetes</b>. My studies included developing advanced <b>algorithms</b> and <b>data structures</b> to efficiently solve complex problems. Additionally, I had the opportunity to explore emerging fields such as <b>artificial intelligence</b> and <b>machine learning</b> through hands-on projects and research.
-							</p>
-						</ul>
-
-					</article>
-					<br>
-					<article class='experience'>
-						<div class='experience__title'>
+				<div class="education_container">
+					<div class="education_title">
+						<h2 class="exp_subtitle">Education</h2>
+						<br />
+						<article class="experience">
+						  <div class="experience__title">
 							<h3>CTPMN
-								<Image src={ctplogo} alt='CTPMN Logo' height={50} />
+							  <Image src={ctplogo} alt="CTPMN Logo" height={50} />
 							</h3>
 							<span></span>
-							<p class='experience__role'>CTP de Mercedes Norte - Associate's Degree in Software Development</p>
-						</div>
-	
-						<p class='experience__date'><time datetime='2017-02-05'>February 2017</time> - <time datetime='2019-12-15'>December 2019</time></p>
-						<ul class='education_learnings'>
-							<p>Throughout my <b>Associate's Degree in Software Development</b>, I developed a strong foundation in <b>object-oriented programming</b> using languages like <b>Java</b> and <b>C#</b>. I gained practical experience in <b>web development</b> through the use of <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, and worked on building responsive, dynamic websites. I also learned to manage <b>relational databases</b> using <b>SQL</b> and focused on improving <b>data structures</b> and <b>algorithms</b> for optimized performance. Additionally, I gained experience in <b>version control systems</b> like <b>Git</b>. This degree equipped me with the skills to design, develop, and maintain software applications efficiently.</p>
-						</ul>
+							<p class="experience__role">CTP de Mercedes Norte - Associate's Degree in Software Development</p>
+						  </div>
+						  <p class="experience__date">
+							<time datetime="2017-02-05">February 2017</time> - <time datetime="2019-12-15">December 2019</time>
+						  </p>
+						  <ul class="education_learnings">
+							<p>
+							  Throughout my <b>Associate's Degree in Software Development</b>, I developed a strong foundation in <b>object-oriented programming</b> using languages like <b>Java</b> and <b>C#</b>. I gained practical experience in <b>web development</b> through the use of <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, and worked on building responsive, dynamic websites. I also learned to manage <b>relational databases</b> using <b>SQL</b> and focused on improving <b>data structures</b> and <b>algorithms</b> for optimized performance. Additionally, I gained experience in <b>version control systems</b> like <b>Git</b>. This degree equipped me with the skills to design, develop, and maintain software applications efficiently.
+							</p>
+						  </ul>
+						</article>
+					  </div>
+					
+					<div class="education_title">
+					<article class="experience">
+					  <div class="education__title">
+						<h3>ITCR
+						  <Image src={tecLogo} alt="ITCR Logo" height={50} />
+						</h3>
+						<span></span>
+						<p class="experience__role">Instituto Tecnologico de Costa Rica - Bachelor's Degree in Computer Science</p>
+					  </div>
+					  <p class="experience__date">
+						<time datetime="2020-02-07">February 2020</time> - <time datetime="2024-09-05">September 2024</time>
+					  </p>
+					  <ul class="education_learnings">
+						<p>
+						  Graduated with <b>Honors</b>. During my <b>Bachelor's in Computer Science</b>, I gained a deep understanding of <b>software architecture</b> and <b>design patterns</b>, which allowed me to build scalable and maintainable systems. I also acquired experience in managing and optimizing both <b>SQL</b> and <b>NoSQL databases</b>, and explored <b>cloud computing</b> and <b>virtualization technologies</b> using tools like <b>Docker</b> and <b>Kubernetes</b>. My studies included developing advanced <b>algorithms</b> and <b>data structures</b> to efficiently solve complex problems. Additionally, I had the opportunity to explore emerging fields such as <b>artificial intelligence</b> and <b>machine learning</b> through hands-on projects and research.
+						</p>
+					  </ul>
 					</article>
+				  </div>
+			  
+				  
 				</div>
-			</section>
+			  </section>
 
 			<section class='stacks'>
 				<h2 class='subtitle'>Stack</h2>
