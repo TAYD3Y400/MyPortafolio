@@ -108,7 +108,7 @@ export const projects = [
     name: "NBA MVP Predict",
     description: 'A <b style="color: #C70039;">data-driven analytics platform</b> coded in  <b style="color: #C70039;">Python</b> that forecasts NBA Most Valuable Player winners using historical trends and machine learning. Designed to provide <b style="color: #C70039;">real-time insights</b> into player performance, team success, and voting patterns, helping fans and analysts identify top contenders with precision.',
     image: nbaLogo,
-    url: "https://colab.research.google.com/drive/1R3ARswTOCmG04EwFxztPUqhYHotzJLvJ?usp=sharing",
+    url: "https://github.com/TAYD3Y400/nba-mvp-predict/blob/master/nba-vmp-predict.ipynb",
   },
   
   {
