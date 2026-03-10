@@ -37,11 +37,11 @@ export const stack = [
   },
   {
     name: "Next",
-    color: "#FAFAFA",
+    color: "#3d363681",
   },
   {
     name: "Astro",
-    color: "#FAFAFA",
+    color: "#2B2B2B",
   },
   {
     name: "NodeJS",
@@ -49,7 +49,7 @@ export const stack = [
   },
   {
     name: "ExpressJS",
-    color: "#FAFAFA",
+    color: "#2B2B2B",
   },
   {
     name: "GraphQL",

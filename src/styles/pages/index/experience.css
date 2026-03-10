@@ -1,0 +1,120 @@
+.exp_subtitle {
+  font-size: 2.4rem;
+}
+
+.experiences_title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  margin-bottom: 1em;
+}
+
+.open-to-work {
+  font-size: 0.9rem;
+  width: fit-content;
+  padding: 0.2em 1.3em;
+  margin-inline: auto;
+  border: 1px solid #c80036;
+  border-radius: 5em;
+  color: #ff6969;
+  background-color: #fff5e1;
+  pointer-events: none;
+}
+
+.experience {
+  position: relative;
+  height: fit-content;
+  width: 100%;
+  padding: 2em;
+  border-radius: 1em;
+  margin: 0 auto;
+  display: block;
+  background: #fff5e1;
+  text-align: start;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.experience a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.experience:hover {
+  border-color: #f727b9aa;
+}
+
+.project:hover::before,
+.experience:hover::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -1px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #fff5e1;
+  box-shadow: 0 0 10px 3px #f76927aa, 0 0 25px 6px #f7692788, 0 0 40px 10px #f7692733;
+}
+
+.project:hover::before {
+  animation: bord 5s linear infinite;
+}
+
+.experience:hover::before {
+  animation: bord 7s linear infinite;
+}
+
+.experience__title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 0.8rem;
+}
+
+.experience__title h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--secondary);
+  transition: 0s;
+}
+
+.experience:hover .experience__title h3 {
+  color: #c80036;
+}
+
+.experience__title h3 svg {
+  margin-left: 10px;
+}
+
+.experience__title span {
+  font-weight: 500;
+}
+
+.experience h3 {
+  font-size: 0;
+}
+
+.experience__role {
+  font-weight: 500;
+}
+
+.experience__date {
+  font-size: 1rem;
+  color: var(--secondary);
+}
+
+.experience__tasks {
+  padding-block-start: 1em;
+  padding-inline-start: 2em;
+  font-size: 1.02rem;
+}
+
+.experience__stack {
+  margin-top: 1.4em;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1em;
+  list-style: none;
+}

@@ -1,0 +1,64 @@
+@media (max-width: 574px) {
+  .title h1 {
+    font-size: 2.2rem;
+  }
+
+  .title h2 {
+    font-size: 1.8rem;
+  }
+
+  .title p {
+    padding-inline: 0;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+  }
+
+  .experience {
+    padding: 22px;
+  }
+
+  .experience__tasks {
+    padding-inline-start: 1em;
+  }
+
+  .project {
+    padding: 1em;
+  }
+
+  .stack {
+    width: 3em;
+    height: 3em;
+  }
+
+  .stack::before {
+    border-radius: 0.7em;
+  }
+
+  .stack::after,
+  .stack::after,
+  .stack {
+    pointer-events: none;
+  }
+
+  tool-tip {
+    display: none;
+  }
+}
+
+@media (max-width: 888px) {
+  .about {
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 5em;
+  }
+
+  .projects__container {
+    height: auto;
+  }
+
+  .project {
+    max-width: 420px;
+  }
+}

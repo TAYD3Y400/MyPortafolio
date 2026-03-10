@@ -1,0 +1,68 @@
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.portfolio {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio b {
+  color: #c80036;
+}
+
+.portfolio h2 {
+  color: var(--secondary);
+}
+
+.subtitle {
+  margin-bottom: 1em;
+  font-size: 2.4rem;
+}
+
+.caption {
+  text-wrap: balance;
+}
+
+.stacks,
+.experiences,
+.projects {
+  width: 100%;
+  margin-bottom: 5em;
+  text-align: center;
+}
+
+.glow {
+  position: absolute;
+  top: 15em;
+  left: 50%;
+  width: 40em;
+  max-width: 100%;
+  height: 20em;
+  border-radius: 30%;
+  display: block;
+  background: radial-gradient(#ee4970aa 20%, hsla(311, 100%, 86%, 0.634) 100%);
+  transform: translate(-50%, 0%);
+  will-change: transform;
+  filter: blur(100px);
+  z-index: -1;
+}
+
+.glow1 {
+  position: absolute;
+  top: 20em;
+  left: 50%;
+  width: 40em;
+  max-width: 100%;
+  height: 20em;
+  border-radius: 30%;
+  display: block;
+  background: radial-gradient(#8996c4 20%, #198ba455 100%);
+  transform: translate(-50%, 0%);
+  will-change: transform;
+  filter: blur(100px);
+  z-index: -1;
+}

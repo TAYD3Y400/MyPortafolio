@@ -1,0 +1,25 @@
+.social-links li {
+  text-decoration: none;
+  color: red;
+}
+
+.about {
+  margin-bottom: 2em;
+  display: flex;
+  align-items: center;
+  gap: 5em;
+}
+
+.about__description {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.about__description p {
+  padding: 2em;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1em;
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 1.1rem;
+}
